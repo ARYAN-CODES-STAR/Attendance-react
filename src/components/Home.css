@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    x-overflow:none;
+}
+.attendance{
+    margin-left: 16vw; 
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+ul li {
+  margin: 10px;
+}
+.front{
+    display: flex;
+}
+.front--right{
+    display: flex;
+    margin-left: 40vw;
+    margin-top: 10px;
+}
+    /* #search--class{
+      display: flex;
+    } */
+
+    .leave--application {
+      appearance: none;
+      background-color: #FAFBFC;
+      border: 1px solid rgba(27, 31, 35, 0.15);
+      border-radius: 6px;
+      box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+      box-sizing: border-box;
+      color: #0f477f;
+      cursor: pointer;
+      display: inline-block;
+      font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      list-style: none;
+      padding: 6px 16px;
+      position: relative;
+      transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: middle;
+      white-space: nowrap;
+      word-wrap: break-word;
+    }
+    
+    .leave--application:hover {
+      background-color: #F3F4F6;
+      text-decoration: none;
+      transition-duration: 0.1s;
+    }
+    
+    .leave--application:disabled {
+      background-color: #FAFBFC;
+      border-color: rgba(27, 31, 35, 0.15);
+      color: #959DA5;
+      cursor: default;
+    }
+    
+    .leave--application:active {
+      background-color: #EDEFF2;
+      box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+      transition: none 0s;
+    }
+    
+    .leave--application:focus {
+      outline: 1px transparent;
+    }
+    
+    .leave--application:before {
+      display: none;
+    }
+    
+    .leave--application:-webkit-details-marker {
+      display: none;
+    }
+
+
+
+
+    .teacher--attendance {
+      appearance: none;
+      background-color: #124b83;
+      border: 1px solid rgba(22, 79, 137, 0.778);
+      border-radius: 6px;
+      box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+      box-sizing: border-box;
+      color: #ffffff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      list-style: none;
+      padding: 6px 16px;
+      position: relative;
+      transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: middle;
+      white-space: nowrap;
+      word-wrap: break-word;
+    }
+    
+    .teacher--attendance:hover {
+      background-color: #142e61;
+      text-decoration: none;
+      transition-duration: 0.1s;
+    }
+    
+    .teacher--attendance:disabled {
+      background-color: #FAFBFC;
+      border-color: rgba(27, 31, 35, 0.15);
+      color: #959DA5;
+      cursor: default;
+    }
+    
+    .teacher--attendance:active {
+      background-color: #113367;
+      box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+      transition: none 0s;
+    }
+    
+    .teacher--attendance:focus {
+      outline: 1px transparent;
+    }
+    
+    .teacher--attendance:before {
+      display: none;
+    }
+    
+    .teacher--attendance:-webkit-details-marker {
+      display: none;
+    }
+/* .but__date {
+  display: flex;
+
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  color: #3D3D3D;
+  background: #fff;
+  border: blue;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.but__date:focus {
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+} */
+
+
+#search--class{
+    width: 40%;
+    height: 20%;
+}
+.stan{
+    display: flex;
+    justify-content: space-around ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  } 
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  /* .flexbox {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+  } */
+  /* .column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }  */
+  .title {
+    text-align: center;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+  }
+  span#data{
+    color: rgb(14, 14, 13);
+    margin-left: 50%;
+  }
+  span#abs{
+    color: rgb(14, 14, 13);
+    margin-left: 58%;
+  }

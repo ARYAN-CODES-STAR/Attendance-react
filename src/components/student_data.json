@@ -1,0 +1,7 @@
+[
+    { "name": "John Doe", "roll_no": 1, "image": "data:https://avatars.githubusercontent.com/u/78686630?s=400&u=f91c674137ab099d4fe15b58687eea1c77c633da&v=4" },
+    { "name": "Jane Smith", "roll_no": 2, "image": "https://avatars.githubusercontent.com/u/78686630?s=400&u=f91c674137ab099d4fe15b58687eea1c77c633da&v=4" },
+    { "name": "Michael Johnson", "roll_no": 3, "image": "image_data_103" },
+    { "name": "Emily Brown", "roll_no": 4, "image": "image_data_104" },
+    { "name": "William Davis", "roll_no": 5, "image": "image_data_105" }
+  ]
